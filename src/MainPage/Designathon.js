@@ -1,5 +1,6 @@
 import Nav from "./Nav";
 import "./Home.css"
+import background from "../assets/background.png"
 
 function Designathon() {
     return (
@@ -9,7 +10,7 @@ function Designathon() {
                 height: "100%",
             }}>
                 <Nav page={"designathon"}/>
-                <div className={"background-img"} style={{
+                <div className={background} style={{
                     height: "100%",
                     background: "linear-gradient(180deg, rgba(26, 15, 75, 0.95) 0%, #83548C 100%)",
                 }}>

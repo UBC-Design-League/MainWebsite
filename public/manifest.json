@@ -3,7 +3,7 @@
   "name": "UBC Design League",
   "icons": [
     {
-      "src": "Logo.png",
+      "src": "static/images/Logo.png",
       "type": "image/png",
       "sizes": "512x512"
     }

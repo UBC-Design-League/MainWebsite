@@ -1,6 +1,6 @@
 import "./Home.css"
 import Nav from "./Nav"
-
+import background from "../assets/background.png"
 
 function Home() {
     return (
@@ -11,7 +11,7 @@ function Home() {
                     <div className={"background-img"} style={{
                         background: "linear-gradient(180deg, rgba(26, 15, 75, 0.95) 0%, #83548C 100%)",
                     }}>
-                        <img src={"./static/images/Background.png"} alt={"UBC Design League Logo"} style={{
+                        <img src={background} alt={"UBC Design League Logo"} style={{
                             objectFit: "contain",
                             width: "100%",
                             position: "static",

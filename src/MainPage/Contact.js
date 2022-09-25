@@ -2,6 +2,7 @@ import Nav from "./Nav";
 import "./Home.css"
 import "./Contact.css"
 import {useForm} from 'react-hook-form';
+import background from "../assets/background.png"
 
 function Contact() {
     const {register, handleSubmit, formState: {errors}} = useForm();
@@ -15,7 +16,7 @@ function Contact() {
                 height: "100%",
             }}>
                 <Nav page={"contact"}/>
-                <div className={"background-img"} style={{
+                <div className={background} style={{
                     height: "100%",
                     background: "linear-gradient(180deg, rgba(26, 15, 75, 0.95) 0%, #83548C 100%)",
                 }}>
