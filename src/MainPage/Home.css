@@ -1,0 +1,16 @@
+.site-container {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    overflow-y: scroll;
+}
+
+.background-img {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: fit-content;
+}
